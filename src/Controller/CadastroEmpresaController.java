@@ -13,7 +13,7 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author Herisson
+ * @author Herisson lindao
  */
 public class CadastroEmpresaController implements Initializable {
 
