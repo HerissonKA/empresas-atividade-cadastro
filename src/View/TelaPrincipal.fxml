@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="TelaP" prefHeight="509.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaPrincipalController">
+   <children>
+      <Button fx:id="Cp" layoutX="54.0" layoutY="57.0" mnemonicParsing="false" prefHeight="173.0" prefWidth="284.0" style="-fx-background-color: #c5c0c0;" text="Cadastro de Pessoas" textFill="#dd1c1c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Lp" layoutX="54.0" layoutY="292.0" mnemonicParsing="false" prefHeight="173.0" prefWidth="284.0" style="-fx-background-color: #c5c0c0;" text="Listar Pessoas" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Le" layoutX="391.0" layoutY="292.0" mnemonicParsing="false" prefHeight="173.0" prefWidth="284.0" style="-fx-background-color: #c5c0c0;" text="Lista Empregos" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Ce" layoutX="391.0" layoutY="57.0" mnemonicParsing="false" prefHeight="173.0" prefWidth="284.0" style="-fx-background-color: #c5c0c0;" text="Cadastro de Empregos" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

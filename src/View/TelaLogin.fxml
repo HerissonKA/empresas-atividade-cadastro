@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="TelaL" prefHeight="450.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaLoginController">
+    <children>
+        <Button fx:id="btentrar" layoutX="488.0" layoutY="275.0" prefHeight="27.0" prefWidth="108.0" text="Entrar" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="btsair" layoutX="364.0" layoutY="275.0" prefHeight="27.0" prefWidth="108.0" text="Sair" />
+      <TextField fx:id="testeusuario" layoutX="364.0" layoutY="108.0" prefHeight="25.0" prefWidth="231.0" />
+      <Label layoutX="364.0" layoutY="77.0" text="Usuario" />
+      <Label layoutX="364.0" layoutY="150.0" text="Senha" />
+      <ImageView fitHeight="382.0" fitWidth="342.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagen/SENAI2.jpg" />
+         </image></ImageView>
+      <PasswordField fx:id="testesenha" layoutX="364.0" layoutY="187.0" prefHeight="25.0" prefWidth="231.0" />
+    </children>
+</AnchorPane>
